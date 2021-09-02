@@ -72,7 +72,6 @@ const ex5 = () => {
   let rightIdx = 2;
   let leftIdx = 4;
   document.addEventListener("keydown", (e) => {
-    console.log(e.key);
     switch (e.key) {
       // if e.key === 'ArrowRight'
       case "ArrowRight":
@@ -95,6 +94,7 @@ const ex5 = () => {
         rightIdx = 1;
         // increment leftIdx by 1
         leftIdx++;
+        break;
       default:
         break;
     }
@@ -104,5 +104,5 @@ const ex5 = () => {
 // ex1();
 // ex2();
 // ex3();
-ex4();
-// ex5();
+// ex4();
+ex5();
